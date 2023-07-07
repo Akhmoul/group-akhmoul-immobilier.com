@@ -1,0 +1,431 @@
+ <html>
+<head>
+    <title>Group Akhmoul immobilier</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="evo-calendar.min.css">
+    <link rel="stylesheet" href="evo-calendar.midnight-blue.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    
+</head>
+<body>
+<section id="banner">
+    <img src="images/logo.jpg" class="logo">
+     <div class="banner-text">
+        <h1>Group Akhmoul immobilier</h1>
+        <p>Socilété de Construction, Vente des Appartements et Travaux Divers</p>
+        <div class="banner-btn">
+            <a href="#"><span></span>En savoir plus</a>
+            <a href="#"><span></span>Lire plus</a>
+        </div>
+         </div> 
+     </section>
+    
+<div id="sideNav">
+    <nav>
+    <ul>
+        <li><a href="#banner">Accueil</a></li>
+        <li><a href="#feature">Cartéctér</a></li>
+        <li><a href="#images">Nos images</a></li>
+        <li><a href="#service">Les services</a></li>
+        <li><a href="#Calendrie">Calendrie</a></li>
+        <li><a href="#map">Le lieu</a></li>
+        <li><a href="#cont">Evoyez un message</a></li>
+        <li><a href="#footer">Contactez-nous</a></li>
+
+    </ul>
+    </nav>
+</div>
+<div id="manuBtn">
+    <img src="images/menu2.png" id="menu">
+</div>
+  
+<script>
+var manuBtn = document.getElementById("manuBtn")   
+var sideNav = document.getElementById("sideNav")   
+var menu = document.getElementById("menu")
+
+sideNav.style.right = "-250px";
+
+manuBtn.onclick = function(){
+    if(sideNav.style.right == "-250px"){
+        sideNav.style.right = "0";
+        menu.src = "images/close.png";
+    }
+    else{
+        sideNav.style.right = "-250px";
+        menu.src = "images/menu2.png";
+    }
+}
+</script>
+
+<!--feature-->    
+<section id="feature">
+<div class="title-text">
+<p>CARTÉCTÉR</p>
+<h1>Pourquoi nous choisir?</h1>
+</div>
+<div class="feature-box">
+    <div class="features">
+        <h1>Un grand espace</h1>
+        <div class="features-desc">
+            <div class="feature-icon">
+                <i class="fa fa-shield"></i>
+            </div>
+            <div class="feature-text">
+                <p>Des appartemment avec un grand espace. Trois chambres ou quatre,un salle de bain ou deux.</p>
+            </div>
+            </div>
+            <h1>Nos chiffres clés</h1>
+        <div class="features-desc">
+            <div class="feature-icon">
+                <i class="fa fa-key"></i>
+            </div>
+            <div class="feature-text">
+                <p>PROJET à OUJDA ET SAIDIA:33/ APPARTEMENTS CONSTRUITES:280/ VILLAS CONSTRUITES:63/ CLIENTS SATISFAITS:90%. </p>
+            </div>
+            </div>
+        <h1>Nos propriétés exclusives</h1>
+        <div class="features-desc">
+            <div class="feature-icon">
+                <i class="fa fa-home"></i>
+            </div>
+            <div class="feature-text">
+                <p>GROUPE AKHMOUL immobilier, Vous présente des appartements à vendre à Oujda et des villas à vendre à Saidia, Maroc.
+</p>
+            </div>
+            </div>
+        </div>
+    <div class="features-img">
+        <img src="images/barber-.jpg">
+    </div>
+</div>
+
+</section>
+    
+ <!--images-->
+<section id="images">
+<div class="title-text">
+<p>IMAGES</p>
+<h1>Nos images</h1>
+    <div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="images/img2.PNG"></div>
+    <div class="swiper-slide"><img src="images/img4.PNG"></div>
+    <div class="swiper-slide"><img src="images/img6.PNG"></div>
+    <div class="swiper-slide"><img src="images/img1.PNG"></div>
+    <div class="swiper-slide"><img src="images/img3.PNG"></div>
+    <div class="swiper-slide"><img src="images/img5.PNG"></div>
+    <div class="swiper-slide"><img src="images/img7.PNG"></div>
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+</div>
+</div>
+    
+    
+    
+    
+ <!--Service   --> 
+    
+<section id="service">
+    <div class="title-text">
+    <p>SERVICES</p>
+    <h1>Nous fournissons mieux</h1>
+    </div>
+    <div class="service-box">
+        <div class="singel-service">
+            <img src="images/image-1.webp">
+            <div class="overlay"></div>
+            <div class="service-desc">
+                <h3>APPARTEMENT 1</h3>
+                <hr>
+                <p>Cet appartement à trois  chambres,un salle de bain,100m², niveaux:R+2,Année de construction: 2021, emplacement principal:ASWAQ ASSALAM à OUJDA. pris:À PARTIR DE 510.000 DH.</p>
+                </div>
+            </div>
+            
+        
+        <div class="singel-service">
+            <img src="images/image-2.webp">
+            <div class="overlay"></div>
+            <div class="service-desc">
+                <h3>APPARTEMENT 2</h3>
+                <hr>
+                <p>Cet appartement à trois  chambres,un salle de bain,100m², niveaux:R+2,Année de construction: 2021, emplacement principal:ASWAQ ASSALAM à OUJDA. pris:À PARTIR DE 510.000 DH.</p>
+            </div>
+        </div>
+        <div class="singel-service">
+            <img src="images/image-3.webp">
+            <div class="overlay"></div>
+            <div class="service-desc">
+                <h3>VILLA-1</h3>
+                <hr>
+                <p>Cette villa à trois  chambres,deux salles de bains,120m², niveaux:R+1,Année de construction: 2022, emplacement principal:LOTISSEMENT GALAXY à SAIDIA. pris:À PARTIR DE 1 000.000 DH.</p>
+            </div>
+        </div>
+        <div class="singel-service">
+            <img src="images/image-4.webp">
+            <div class="overlay"></div>
+            <div class="service-desc">
+                <h3>APPARTEMENT 2</h3>
+                <hr>
+                <p>Cet appartement à deux  chambres,un salle de bain,100m², niveaux:R+2,Année de construction: 2021, emplacement principal:CARACAS à SAIDIA.PRIS: 490.000DH</p>
+            </div>
+        </div>
+    </div>
+    
+</section>
+    
+    <!--Calendrie-->
+    <section id="Calendrie">
+    <div class="title-text">
+    <p>Calendrie</p>
+    <h1>Le calendrie</h1>
+        </div>
+        <div id="calendar"></div>
+    
+    </section>
+<!--map-->
+<section id="map">
+    <div class="map-text">
+    <p>La carte</p>
+    <h1>LE LIEU DE NOTRE BUREAU:</h1>
+    </div>
+    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d820.2167831602804!2d-1.917250330367472!3d34.68330270111175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd78654e25d8d737%3A0x472fa7851a3df4d3!2sGroupe%20Akhmoul%20Immobilier!5e0!3m2!1sen!2sma!4v1688312507013!5m2!1sen!2sma" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+</section>
+
+<!--contact-->
+<section id="cont">
+    <div class="cont-text">
+    <p>Envoyez nous un message</p>
+    <h1>VOUS POUVEZ ENVAYEZ UN EMAIL</h1>
+    </div>
+    <div class="container">
+        <form onsubmit="sendEmail(); reset(); return false;">
+            <h3>ENTRER EN CONTACT AVEC NOUS</h3>
+            <input type="text" id="name" placeholder="Votre nom" required>            
+            <input type="email" id="email" placeholder="Votre Email" required>
+            <input type="text" id="phone" placeholder="Votre numero" required>
+            <textarea id="message" rows="4" placeholder="Comment pouvons nous vous aider?"></textarea>
+            <button type="submit">ENVOYER</button>
+        </form>
+    </div>
+</section>
+    
+    
+<!--footer-->
+<section id="footer">
+    <img class="images/image.footer.png" class="footer-img">
+    <div class="title-text">
+    <p>CONTACT</p>
+    <h1>VOTRE MAISON DE RÊVE EST À UN PAS</h1>
+    </div>
+<div class="footer-row">
+<div class="footer-left">
+    <h1>Horaires d'ouvertures</h1>
+    <p><i class="fa fa-clock-o"></i>Du Lundi à Vendredi - 8am à 6pm</p>
+    <p><i class="fa fa-clock-o"></i>Le samedi  - 8am à 12pm</p>
+</div>
+<div class="footer-right">
+    <h1>Enter en contact</h1>
+    <p><i class="fa fa-map-marker"></i>Rue IbnrochdimmAlmouhandissine 2ème étage N°16</p>
+    <p><i class="fa fa-envelope"></i>AKHMOUL.IMMOBILIER@GMAIL.COM</p>
+    <p><i class="fa fa-phone"></i>06 61 36 50 46</p>
+</div>
+</div>
+    
+ <div class="social-links">
+<a href="https://www.youtube.com/@akhmoul1ahmed688">
+<button>
+    <i class="fa fa-youtube-play"></i>
+</button>
+</a>
+<a href="https://www.facebook.com/people/Groupe-Akhmoul-Immobilier/100063818539664/">
+<button>
+    <i class="fa fa-facebook"></i>
+</button>
+</a>
+    <i class="fa fa-avito"></i>
+    <i class="fa fa-twitter"></i>
+    <p>Group akhmoul immobilier</p>
+</div>   
+    
+</section>
+ 
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+
+    <script src="evo-calendar.min.js"></script>
+    
+    <script>
+    
+        $(document).ready(function() {
+            $('#calendar').evoCalendar({
+                
+                calendarEvents: [
+      {
+                        id: 'event1', // Event's ID (required)
+                        name: "Pas de travaille", // Event name (required)
+                        date: "january/02/2020", // Event date (required)
+                        type: "holiday", // Event type (required)
+                        everyYear: true // Same year every year (optional)
+                      },
+                      {
+                        name: "Vacation Leave",
+                        badge: "02/31/sunday", // Event badge (optional)
+                        date: ["February/13/2020", "February/15/2020"], // Date range
+                        description: "Vacation leave for 3 days.", // Event description (optional)
+                        type: "event",
+                        color: "#63d867" // Event custom color (optional)
+      }
+    ]
+                 
+       
+            })
+        })
+        
+        $(document).ready(function() {
+            $('#calendar').evoCalendar({
+                
+                calendarEvents: [
+      {
+                        id: 'event1', // Event's ID (required)
+                        name: "Pas de travaille", // Event name (required)
+                        date: "january/09/2020", // Event date (required)
+                        type: "holiday", // Event type (required)
+                        everyYear: true // Same year every year (optional)
+                      },
+                      {
+                        name: "Vacation Leave",
+                        badge: "02/31/sunday", // Event badge (optional)
+                        date: ["February/13/2020", "February/15/2020"], // Date range
+                        description: "Vacation leave for 3 days.", // Event description (optional)
+                        type: "event",
+                        color: "#63d867" // Event custom color (optional)
+      }
+    ]
+                 
+       
+            })
+        })
+    </script>
+
+
+    
+<script>
+var menuBtn = document.getElementById("menuBtn")
+var sideNav = document.getElementById("sideNav")
+var menu = document.getElementById("menu")
+
+sideNav.style.right = "-250px";
+
+
+menuBtn.onclick = function(){
+    if(sideNav.style.right == "-250px"){
+        sideNav.style.right = "0";
+        menu.src = "images/close.png";
+    }
+    else{
+        sideNav.style.right = "-250px";
+        menu.src = "images/menu";
+
+    
+    }
+}
+
+var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 1000,
+	speedAsDuration: true
+});
+    
+</script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script>
+const swiper = new Swiper('.swiper', {
+    autoplay: {
+        delay: 2000,
+        disableOnInteraction: false,
+    },
+  loop: true,
+
+
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  
+});       
+</script>    
+   <script src=" https://smtpjs.com/v3/smtp.js"></script>
+<script>
+    function sendEmail(){
+        Email.send({
+        Host : "smtp.elasticemail.com",
+        Username : "username",
+        Password : "password",
+        To : 'them@website.com',
+        From : "you@isp.com",
+        Subject : "This is the subject",
+        Body : "And this is the body"
+    }).then(
+      message => alert(message)
+    );
+    }
+</script>
+</body>
+</html> 
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
